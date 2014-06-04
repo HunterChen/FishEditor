@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\UI">
+      <UniqueIdentifier>{25748b07-638d-4b13-8f74-6d8589e2064d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\cocos2dx-better">
+      <UniqueIdentifier>{626fc32d-c87b-440b-aa2f-dbf5b552372b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common">
+      <UniqueIdentifier>{090be26b-6ad1-470f-95c3-fc3e8e9def9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Config">
+      <UniqueIdentifier>{52b34a02-72cd-4210-bef8-7b170d3e8760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool">
+      <UniqueIdentifier>{59fbb9ac-9d0e-4625-b273-e582b6df9ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Config\SpirteConfig">
+      <UniqueIdentifier>{5c817f0a-b447-495e-bc11-78a25cb7accf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool\CommonTool">
+      <UniqueIdentifier>{a12d0ac2-1216-4e0b-abb1-750ee2bf29c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool\csv_parser">
+      <UniqueIdentifier>{8795791f-fb80-4bd7-afce-7ebb332a7664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool\rc4Encrypt">
+      <UniqueIdentifier>{e7c62908-7f13-4b48-b403-bd861c6dfd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Tool\tinyXml">
+      <UniqueIdentifier>{ddb7bb74-df36-434b-b46e-d76efdfc457c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Config\SpirteConfig\SpirteConfigCache.cpp">
+      <Filter>Classes\Config\SpirteConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\CommonTool\LocalDate.cpp">
+      <Filter>Classes\Tool\CommonTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\csv_parser\CCSVParse.cpp">
+      <Filter>Classes\Tool\csv_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\rc4Encrypt\RC4EncryptTool.cpp">
+      <Filter>Classes\Tool\rc4Encrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\tinyXml\tinystr.cpp">
+      <Filter>Classes\Tool\tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\tinyXml\tinyxml.cpp">
+      <Filter>Classes\Tool\tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\tinyXml\tinyxmlerror.cpp">
+      <Filter>Classes\Tool\tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tool\tinyXml\tinyxmlparser.cpp">
+      <Filter>Classes\Tool\tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\FunctionLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\SpriteListLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\EditorLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppInitialize.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\AdjustLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBCoverView.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBFileTool.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBFolderTool.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBLocalTime.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBPixelSprite.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBSimpleRecognizer.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBTransparentButton.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocos2dx-better\CBAnimationCacheLoder.cpp">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\LanguageCache.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\FunctionFileListLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\FunctionSaveFileLayer.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\EditorSprite.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\PrecisionManager.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\WarningLayerSaveFile.cpp">
+      <Filter>Classes\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\DataType.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Macro.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\StringModifier.hpp">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\CsvMapReader.hpp">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\CsvVecReader.hpp">
+      <Filter>Classes\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\SpirteConfig\SpirteConfig.h">
+      <Filter>Classes\Config\SpirteConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Config\SpirteConfig\SpirteConfigCache.h">
+      <Filter>Classes\Config\SpirteConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\CommonTool\LocalDate.h">
+      <Filter>Classes\Tool\CommonTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\csv_parser\CCSVParse.h">
+      <Filter>Classes\Tool\csv_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\rc4Encrypt\RC4EncryptTool.h">
+      <Filter>Classes\Tool\rc4Encrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\tinyXml\tinystr.h">
+      <Filter>Classes\Tool\tinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tool\tinyXml\tinyxml.h">
+      <Filter>Classes\Tool\tinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\FunctionLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\SpriteListLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\EditorLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppInitialize.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\ViewEnum.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\ViewDefine.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\AdjustLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBCoverView.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBFileTool.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBFolderTool.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBLocalTime.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBPixelSprite.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBSimpleRecognizer.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBTransparentButton.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocos2dx-better\CBAnimationCacheLoder.h">
+      <Filter>Classes\cocos2dx-better</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\LanguageCache.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\FunctionSaveFileLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\FunctionFileListLayer.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\EditorSprite.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\PrecisionManager.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\WarningLayerSaveFile.h">
+      <Filter>Classes\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

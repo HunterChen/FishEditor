@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+  <dict>
+    <key>language_1_1</key> <string>新建文件</string>
+    <key>language_1_2</key> <string>打开文件</string>
+    <key>language_1_3</key> <string>保存文件</string>
+    <key>language_1_4</key> <string>另存为文件</string>
+    <key>language_1_5</key> <string>模式[横]</string>
+    <key>language_1_6</key> <string>模式[纵]</string>
+    <key>language_1_7</key> <string>擦除[否]</string>
+    <key>language_1_8</key> <string>擦除[是]</string>
+    <key>language_1_9</key> <string>滑动[否]</string>
+    <key>language_1_10</key> <string>滑动[是]</string>
+    <key>language_1_11</key> <string>调整精度</string>
+    
+    <key>language_2_1</key> <string>读取文件失败</string>
+    <key>language_2_2</key> <string>已存在该文件，是否覆盖？</string>
+    <key>language_2_3</key> <string>确定</string>
+    <key>language_2_4</key> <string>取消</string>
+    <key>language_2_5</key> <string>保存成功</string>
+    <key>language_2_6</key> <string>保存失败</string>
+
+  </dict>
+</plist>

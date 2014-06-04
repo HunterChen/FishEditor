@@ -1,0 +1,16 @@
+#pragma once
+
+
+#define WIDTH_FUNCTION_LAYER 120
+
+#define WIDTH_LIST_LAYER 100
+
+#define WIDTH_BORDER_LINE 2
+
+#define WIDTH_SCROLL_VIEW 1000*4
+
+#define HEIGHT_SCROLL_VIEW 1000*4
+
+#define FOLDER_NAME_MODE_X "SaveFileModeX"
+
+#define FOLDER_NAME_MODE_Y "SaveFileModeY"
